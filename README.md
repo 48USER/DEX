@@ -1,13 +1,6 @@
-# Sample Hardhat Project
+# DEX на базе Hardhat (TS)
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Простой DEX, основанный на внутренней валюте, в которую стейкают поставщики ликвидности, за что получают процент от комиссии площадки, пропорциональный их вкладам.
+Проект создавался, в первую очередь, для знакомства с экосистемой Hardhat.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+деплой + примеры + тесты
